@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+
+    <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+    <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/china.js"></script>
+
+</head>
+<body>
+
+<div id="1ba033cb2ae24d458d8c6079805cbe0f" class="chart-container" style="width:1000px; height:880px;"></div>
+<script>
+    var chart_1ba033cb2ae24d458d8c6079805cbe0f = echarts.init(
+        document.getElementById('1ba033cb2ae24d458d8c6079805cbe0f'), 'white', {renderer: 'canvas'});
+    var option_1ba033cb2ae24d458d8c6079805cbe0f = {
+        "animation": true,
+        "animationThreshold": 2000,
+        "animationDuration": 1000,
+        "animationEasing": "cubicOut",
+        "animationDelay": 0,
+        "animationDurationUpdate": 300,
+        "animationEasingUpdate": "cubicOut",
+        "animationDelayUpdate": 0,
+        "color": [
+            "#c23531",
+            "#2f4554",
+            "#61a0a8",
+            "#d48265",
+            "#749f83",
+            "#ca8622",
+            "#bda29a",
+            "#6e7074",
+            "#546570",
+            "#c4ccd3",
+            "#f05b72",
+            "#ef5b9c",
+            "#f47920",
+            "#905a3d",
+            "#fab27b",
+            "#2a5caa",
+            "#444693",
+            "#726930",
+            "#b2d235",
+            "#6d8346",
+            "#ac6767",
+            "#1d953f",
+            "#6950a1",
+            "#918597"
+        ],
+        "series": [
+            {
+                "type": "map",
+                "name": "\u7d2f\u8ba1\u786e\u8bca\u4eba\u6570",
+                "label": {
+                    "show": true,
+                    "position": "top",
+                    "margin": 8
+                },
+                "mapType": "china",
+                "data": [{"name":"西藏","value":"1"}],
+                "roam": true,
+                "zoom": 1,
+                "showLegendSymbol": false,
+                "emphasis": {}
+            }
+        ],
+        "legend": [
+            {
+                "data": [
+                    "\u7d2f\u8ba1\u786e\u8bca\u4eba\u6570"
+                ],
+                "selected": {
+                    "\u7d2f\u8ba1\u786e\u8bca\u4eba\u6570": true
+                },
+                "show": false,
+                "padding": 5,
+                "itemGap": 10,
+                "itemWidth": 25,
+                "itemHeight": 14
+            }
+        ],
+        "tooltip": {
+            "show": true,
+            "trigger": "item",
+            "triggerOn": "mousemove|click",
+            "axisPointer": {
+                "type": "line"
+            },
+            "showContent": true,
+            "alwaysShowContent": false,
+            "showDelay": 0,
+            "hideDelay": 100,
+            "textStyle": {
+                "fontSize": 14
+            },
+            "borderWidth": 0,
+            "padding": 5
+        },
+        "title": [
+            {
+                "text": "\u4e2d\u56fd\u75ab\u60c5\u5730\u56fe\u5206\u5e03",
+                "left": "center",
+                "top": "10px",
+                "padding": 5,
+                "itemGap": 10
+            }
+        ],
+        "visualMap": {
+            "show": true,
+            "type": "piecewise",
+            "min": 0,
+            "max": 200,
+            "inRange": {
+                "color": [
+                    "#50a3ba",
+                    "#eac763",
+                    "#d94e5d"
+                ]
+            },
+            "calculable": true,
+            "inverse": false,
+            "splitNumber": 5,
+            "orient": "vertical",
+            "showLabel": true,
+            "itemWidth": 20,
+            "itemHeight": 14,
+            "borderWidth": 0,
+            "pieces": [
+                {
+                    "max": 999999,
+                    "min": 1001,
+                    "label": ">10000",
+                    "color": "#8A0808"
+                },
+                {
+                    "max": 9999,
+                    "min": 1000,
+                    "label": "1000-9999",
+                    "color": "#B40404"
+                },
+                {
+                    "max": 999,
+                    "min": 100,
+                    "label": "100-999",
+                    "color": "#DF0101"
+                },
+                {
+                    "max": 99,
+                    "min": 10,
+                    "label": "10-99",
+                    "color": "#F78181"
+                },
+                {
+                    "max": 9,
+                    "min": 1,
+                    "label": "1-9",
+                    "color": "#F5A9A9"
+                },
+                {
+                    "max": 0,
+                    "min": 0,
+                    "label": "0",
+                    "color": "#FFFFFF"
+                }
+            ]
+        }
+    };
+    chart_1ba033cb2ae24d458d8c6079805cbe0f.setOption(option_1ba033cb2ae24d458d8c6079805cbe0f);
+</script>
+
+</body>
+</html>
